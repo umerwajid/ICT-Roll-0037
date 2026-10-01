@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       
+         form {
+            background-color: #ffffff;
+            padding: 30px;
+            width: 400px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 0;
+            font-size: 24px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #0d0e0f;
+            font-weight: 500;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+        input:focus, textarea:focus {
+            outline: 2px solid #08090a;
+            border-color: transparent;
+        }
+  
+        button {
+            background-color: #0284c7;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            width: 100%;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #0369a1;
+        }
+    </style>
+    <title>Task 5</title>
+</head>
+<body style="align-items: center;">
+     <form>
+        <h2>Student Feedback Form</h2>
+        <div class="input-group">
+            <label>Name:</label><br>
+            <input type="text">
+        </div>
+        <div class="input-group">
+            <label>Email:</label><br>
+            <input type="email">
+        </div>
+        <div class="input-group">
+            <label>Feedback Message:</label><br>
+            <textarea rows="4"></textarea>
+        </div>
+        
+        <div style="border: #1e293b; margin: 20px;">
+            <label>Rating (1 to 5 Stars):</label><br>
+            1<input type="radio" name="stars">
+            2<input type="radio" name="stars">
+            3<input type="radio" name="stars">
+            4<input type="radio" name="stars">
+            5<input type="radio" name="stars">
+        </div>
+        
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+</body>
+</html>

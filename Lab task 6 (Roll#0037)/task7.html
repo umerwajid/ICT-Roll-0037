@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 7</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        #hero {
+            background-color: rgb(244, 246, 247);
+            color: rgb(17, 214, 240);
+        }
+        .cta-btn {
+            background-color: rgb(251, 253, 253);
+            color: black;
+            font-size: 25px;
+            padding: 20px;
+            border: 3px solid rgb(23, 151, 236);
+        }
+        .cta-btn:hover{
+            background-color: rgb(13, 231, 231);
+            color: black;
+            border: 3px solid rgb(248, 249, 250);
+
+        }
+        #about {
+            background-color: rgb(243, 245, 245);
+            color: rgb(4, 5, 5);
+        }
+        #services {
+            background-color: rgb(255, 255, 255);
+            color: rgb(31, 25, 25);
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+        }
+        #contact {
+                 form {
+            background-color: #ffffffa6;
+            padding: 30px;
+            width: 400px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 0;
+            font-size: 24px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #0d0e0f;
+            font-weight: 500;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+        input:focus, textarea:focus {
+            outline: 2px solid #08090a;
+            border-color: transparent;
+        }
+  
+        button {
+            background-color: #0284c7;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            width: 100%;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #0369a1;
+        }
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            width: 80%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>WELCOME TO MY HERO LANDING SITE</h1>
+        <p>This is my header section</p>
+        <button class="cta-btn">CLICK HERE NOW!</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us Section</h2>
+        <p>This is my About us page ....</p>
+        <img style="height: 300px;"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguCvLqcg5na7sn1BfxXxiVAkXMBGu_62CJy8Fr3vovXZ4PWt-60qU5BH1&s=10" alt="About Us">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services Section</h2>
+        <ul>
+            <li>Web Design Task Help</li>
+            <li>Basic HTML Coding</li>
+            <li>Bad CSS Layout Styling</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Section Form</h2>
+        <form>
+            <input type="text" placeholder="Your Name"><br>
+            <input type="email" placeholder="Your Email"><br>
+            <textarea placeholder="Your Message"></textarea><br>
+            <button type="button">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
