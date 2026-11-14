@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 4</title>
+</head>
+<body>
+
+  <h3>Button Click Counter</h3>
+  <button onclick="count()">Click Me</button>
+  <p>Clicks: <span id="c">0</span></p>
+
+  <script>
+    var total = 0;
+
+    function count() {
+      total = total + 1;
+      document.getElementById("c").innerHTML = total;
+    }
+  </script>
+
+</body>
+</html>
